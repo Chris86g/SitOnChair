@@ -767,6 +767,11 @@ footer {
   float: left;
 }
 
+.socialmedia img {
+  height: 30px;
+  width:  30px;
+}
+
 .footer-logo {
   float: right;
   text-transform: uppercase;
