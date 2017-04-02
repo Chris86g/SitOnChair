@@ -198,6 +198,11 @@ p {
   display: block;
 }
 
+.more:hover {
+  transform: scale(1.1);
+  letter-spacing: 1px;
+}
+
 .arrows {
   font-size: 80px;
   position: relative;
@@ -309,6 +314,26 @@ h2::after {
   top: 32px;
   left: 0;
   z-index: 3;
+}
+
+.plans h2::after {
+  animation: a1 3s infinite alternate;
+  animation-delay: 3s;
+}
+
+@keyframes a1 {
+  0% {width: 360px;}
+  100% {width: 100px;}
+}
+
+.contact h2::after {
+  animation: a2 3s infinite alternate;
+  animation-delay: 3s;
+}
+
+@keyframes a2 {
+  0% {width: 360px;}
+  100% {width: 135px;}
 }
 
 .align_right>h2::after {
@@ -437,6 +462,11 @@ sup {
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 5px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  letter-spacing: 1.5px;
 }
 
 .left ul {
@@ -596,6 +626,12 @@ sup {
   border-radius: 8px;
   text-decoration: none;
 }
+
+.application .green_button:hover {
+  transform: scale(1.05);
+  letter-spacing: 2px;
+}
+
 .panel_left {
   display: inline-block;
   width: 185px;
@@ -750,6 +786,11 @@ label {
   border-radius: 5px;
 }
 
+.submit:hover {
+  transform: scale(1.05);
+  letter-spacing: 3px;
+}
+
 footer {
   width: 100%;
 }
@@ -771,6 +812,11 @@ footer {
 .socialmedia img {
   height: 30px;
   width:  30px;
+}
+
+.socialmedia img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 5px #27c7ab;
 }
 
 .footer-logo {
