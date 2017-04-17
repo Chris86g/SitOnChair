@@ -215,7 +215,7 @@ p {
   .r {
     position: absolute;
     top: 150px;
-    left: 1160px;
+    right: 0;
   }
 }
 
@@ -320,11 +320,11 @@ h2 {
 
 
 .contact h2::after {
-  animation: a2 3s infinite alternate;
+  animation: a3 3s infinite alternate;
   animation-delay: 3s;
 }
 
-@keyframes a2 {
+@keyframes a3 {
   0% {
     width: 360px;
   }
@@ -334,10 +334,21 @@ h2 {
   }
 }
 
-
 .align_right > h2::after {
   padding-left: 20px;
+  // animation: a2 3s infinite alternate;
+  // animation-delay: 3s;
 }
+
+// @keyframes a2 {
+//   0% {
+//     width: 360px;
+//   }
+//
+//   100% {
+//     width: 160px;
+//   }
+// }
 
 .flyer-wrap {
   display: flex;
